@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: "Times New Roman", Georgia, Serif;
 }
 
 
@@ -8,6 +9,9 @@
 }
 header{
   font-size: 1.75em;
+  text-align: center;
+  margin: 20px;
+  font-weight: bold; 
 }
 section{
   position: relative;

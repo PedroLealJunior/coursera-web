@@ -6,13 +6,20 @@
 .row {
   width: 100%;
 }
+header{
+  font-size: 1.75em;
+}
+section{
+  position: relative;
+  background-color: #C0C0C0;
+}
 
 @media (min-width: 992px) {
    .col-desktop {
     float: left;
     width: 31.33%;
     border: 1px solid black;
-    padding: 10px;
+    padding: 30px 10px 10px 10px;
     margin: 1%;
   }
 }
@@ -22,14 +29,14 @@
     float: left;
     width: 48%;
     border: 1px solid black;
-    padding: 10px;
+    padding: 30px 10px 10px 10px;
     margin: 1%;
   }
   .col-2-tablet {
       float: left;
       width: 98%;
       border: 1px solid black;
-      padding: 10px;
+    padding: 30px 10px 10px 10px;
       margin: 1%;
 
   }
@@ -39,13 +46,33 @@
     float: left;
     width: 98%;
     border: 1px solid black;
-    padding: 10px;
+    padding: 30px 10px 10px 10px;
     margin: 1%;
   }
 }
 
 
 h1 {
-  color: blue;
-  font-size: 16px;
+  color: black;
+  font-size: 1.25em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0px;
+  width: 80px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+section:nth-child(1) > h1{
+    background-color: #E9ACAC;
+
+}
+section:nth-child(2) > h1{
+    background-color: #EF6161;
+
+}
+section:nth-child(3) > h1{
+    background-color: #E2D960;
+
 }
